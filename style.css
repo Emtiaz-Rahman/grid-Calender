@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+.calender{
+height: 500px;
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+grid-template-rows: 2em repeat(5,1fr);
+grid-gap: 1em;
+}
+.date,.day{
+    background-color: cadetblue;
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.day{
+    background-color: darkgrey;
+    
+}
+.other_months{
+    background-color: cyan;
+}
